@@ -80,6 +80,11 @@ button {
   font-size: 20px;
   color: #f9faf8;
   cursor: pointer;
+  transition: all 0.15s;
+}
+
+button:hover {
+  opacity: 0.8;
 }
 
 ul {
@@ -111,14 +116,14 @@ a {
   display: flex;
   justify-content: center;
   text-align: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 60px;
 }
 
 .country {
   /* border: 1px solid blue; */
   cursor: pointer;
-  width: 350px;
+  max-width: 350px;
   height: auto;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
@@ -154,4 +159,58 @@ blockquote {
 .author {
   font-style: normal;
   font-size: 2rem;
+}
+
+/* Contact Section */
+#contact {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  background-color: #3882f6;
+  width: 70%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contact-desc {
+  font-size: 1.2rem;
+  color: rgb(65, 60, 60);
+}
+
+.contact-container button {
+  border: 2px solid #fff;
+  transition: all 0.15s;
+}
+
+.contact-container button:hover {
+  opacity: 0.7;
+}
+
+/* Footer section */
+footer {
+  background-color: rgba(56, 63, 97, 1);
+  background-image: linear-gradient(
+    360deg,
+    rgba(46, 171, 226, 1) 50%,
+    rgb(65, 183, 233) 100%
+  );
+  color: #f9faf8;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
