@@ -1,19 +1,30 @@
 # TravelWebsite
 
-https://floreaportari.github.io/TravelWebsite/
+### Created a landing page for the Odin Project
 
-Created a landing page for the Odin Project
+<br/>
 
-Credit goes to the authors of the images used for this website
+> Site Preview: https://floreaportari.github.io/TravelWebsite/
 
-Source: unsplash.com
+<br/>
 
-Henrique Ferreira --> https://unsplash.com/@rickpsd
+Images used for this website taken from [Unsplash](https://unsplash.com).
 
-Dimitry B --> https://unsplash.com/@dimitry_b
+Thank you for the pictures:
 
-Uno Raamat --> https://unsplash.com/@uno
+- Henrique Ferreira --> https://unsplash.com/@rickpsd
 
-Sebastien Jermer --> https://unsplash.com/@seb
+- Dimitry B --> https://unsplash.com/@dimitry_b
 
-Joao Branco --> https://unsplash.com/@jfobranco
+- Uno Raamat --> https://unsplash.com/@uno
+
+- Sebastien Jermer --> https://unsplash.com/@seb
+
+- Joao Branco --> https://unsplash.com/@jfobranco
+
+</br>
+
+Technologies used to build this website:
+
+- **HTML**
+- **CSS**
